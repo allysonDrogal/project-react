@@ -1,7 +1,6 @@
 {
   "name": "desafios",
   "packageManager": "yarn@4.6.0",
-
   "scripts": {
     "dev": "webpack server",
     "build": "cross-env NODE_ENV=production webpack"
@@ -13,7 +12,10 @@
     "@babel/preset-react": "^7.27.1",
     "babel-loader": "^10.0.0",
     "cross-env": "^7.0.3",
+    "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "styles-loader": "^4.0.1",
     "webpack": "^5.100.2",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2"
