@@ -1,5 +1,4 @@
-import React from "react"
-export default function App() {
+export function App() {
   return (
   <div>
     <h1>opaaa</h1>
